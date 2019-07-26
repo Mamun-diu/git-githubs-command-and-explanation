@@ -1,0 +1,91 @@
+		Git and GitHubs
+
+=git init
+=>Creater local repository.. at first need to enter this directory.
+=git config --global user.name "Al-Mamun"
+=git config --global user.email "gmail"
+=>same name and email for all project
+=git config user.name "Al-Mamun"
+=git config user.email "gmail"
+=>Different name and email for project
+=git config --list
+=>Check name and email
+=clear
+=>Clean screen
+=git status
+=>Check git status
+=git add sample.txt or git add .
+=>stage file
+=git commit -m "commit"
+=>Write some commit
+=git log or git log --oneline
+=>see all commit
+=git checkout 6901f05
+=>return this commit
+=git checkout master
+=>return master branch
+=git diff
+=>see differnce
+=git show 6901f05
+=>see difference this particular id
+=git diff 04499d7 1fd15c4
+=>difference between in this two id
+=git diff --staged
+=>see previous differnce
+=git rm sample.txt
+=>remove file from git
+=git reset HEAD sample.txt
+=>remove from staging area and untract
+=git clone https
+=>create repository from remote to local
+=git remote add origin https
+=>create repository to your existing local repository
+=git push -u origin master
+=>send file from local repository to remote repository
+=git fetch
+=git pull
+=>if any file change in github manually,then we use git fetch and git pull to see what is change from local repository.
+=git branch idbranch
+=>creater new branch
+=git branch
+=>see all branch
+=git checkout idbranch
+=>change branch
+=git checkout -b home-branch
+=>create and enter this branch
+=git merge home-branch
+=>At first enter master branch then type this command to merge with master branch
+=git branch -D idbranch
+=>delete branch
+=git stash
+=>temporary move
+=git stash pop or apply
+=>see temporary move
+=git stash list
+=>see all stash file
+=git stash pop stash@[1]
+=>enter this stash 
+=git clean -f
+=>delete untracked files
+=git clean -f -n
+=>see what happen after press enter button
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
