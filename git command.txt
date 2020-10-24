@@ -1,0 +1,33 @@
+git config --global user.name Mamun //set name
+git config --global user.email mamun511510782@gmail.com //set email
+git init //initialize git to this folder
+ls -lart //show file with hidden of this folder
+git status //show status
+git add index.html //staged index.html
+git commit -m "add index.html" //commit complete
+git add -A //staged all files
+clear //clear terminal
+git checkout file name //back previous state where you set commit
+git checkout -f // checkout all
+git log //show all commit
+git log -p -2 //show last 2 commit
+q // quite
+git diff //show difference between stage area and working directory
+git diff --staged //compare between previous stage
+git rm --cached file name // remove from stage area
+git rim file name // remove file from git and working directory
+git status -s // check short status
+touch .gitignore // create ignore file
+git branch // check branch name
+git branch feature // create feature branch
+git checkout feature // switch to feature branch
+git merge feature // merge master and feature. we need at first checkout master
+
+*push another branch to server
+	git checkout feature
+	git push -u origin featuer
+git clone HTTPS //clone github project
+git push -u origin master // push files to github
+
+
+
